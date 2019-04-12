@@ -42,7 +42,7 @@ public class Tree extends Plant{
     }
     @Override
     public void draw(Graphics g){
-        g.drawImage(img, x, y, 25, 25, null);
+        g.drawImage(img, x, y, 15, 15, null);
     }
     public static void chopped(){
         numTrees--;

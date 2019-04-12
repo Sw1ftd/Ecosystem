@@ -41,7 +41,7 @@ public class Pig extends Animal{
     }
     @Override
     public void draw(Graphics g){
-        g.drawImage(img, x, y, 25, 25, null);
+        g.drawImage(img, x, y, 20, 20, null);
     }
     public static void hunted(){
         numPigs--;

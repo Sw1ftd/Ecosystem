@@ -135,7 +135,7 @@ public class Ecosystem extends JPanel {
         int sizeP = plants.size();
         for(int i = 0; i < sizeP; i++){
             Plant plant = plants.get(i);
-            if(plant.isAlive() && loopP < 10){
+            if(plant.isAlive() && loopP < 3){
                 if(plant.getTypeOfPlant().equals("Tree")){
                     plants.add( new Tree() );
                     loopP++;

@@ -29,7 +29,7 @@ public class Male extends Human{
     }
     @Override
     public void draw(Graphics g){
-        g.drawImage(img, x, y, 25, 25, null);
+        g.drawImage(img, x, y, 30, 30, null);
     }
     public static void death(){
         numMales--;

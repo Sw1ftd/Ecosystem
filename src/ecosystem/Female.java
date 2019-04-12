@@ -29,7 +29,7 @@ public class Female extends Human{
     }
     @Override
     public void draw(Graphics g){
-        g.drawImage(img, x, y, 25, 25, null);
+        g.drawImage(img, x, y, 27, 27, null);
     }
     public static void death(){
         numFemales--;
